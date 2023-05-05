@@ -10,11 +10,12 @@ function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="ball" />
         </main>
         <footer className="app-footer">
           Coded by Akhigbe Faith
-          <a href="https://github.com/Faith-Coding/react-dictionary-app">{""}
+          <a href="https://github.com/Faith-Coding/react-dictionary-app">
+            {""}
             Open Source{""}
           </a>
         </footer>
