@@ -9,6 +9,7 @@ margin: 20px 0;
 .Dictionary h1 {
 font-size: 18px;
 font-weight: bold;
+ font-style: italic; 
 }
 
 .Dictionary input {
@@ -16,12 +17,15 @@ width: 100%;
 padding: 6px 10px;
 border-radius: 26px;
 color: #333;
-border: 1px solid #ddd
+border: 1px solid #ddd;
 }
 
 .Dictionary .hint {
 margin: 5px 0;
 color: #333;
-font-size: 11px;
+font-size: 23px;
+font-style: italic; 
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 
 }

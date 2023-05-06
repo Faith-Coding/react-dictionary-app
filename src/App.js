@@ -1,5 +1,6 @@
-import logo from "./logo.jpeg";
+import logo from "./logo.png";
 import Dictionary from "./Dictionary";
+import { FaGithub, FaCode } from "react-icons/fa";
 import "./App.css";
 
 function App() {
@@ -13,10 +14,10 @@ function App() {
           <Dictionary defaultKeyword="ball" />
         </main>
         <footer className="app-footer">
-          Coded by Akhigbe Faith
+          <FaCode className="coded" />
+           by Akhigbe Faith
           <a href="https://github.com/Faith-Coding/react-dictionary-app">
-            {""}
-            Open Source{""}
+            <FaGithub />
           </a>
         </footer>
       </div>

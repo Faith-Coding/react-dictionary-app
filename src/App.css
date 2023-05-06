@@ -1,13 +1,25 @@
 body{
     background: #D4AF37;
 }
-a{
-    color:#f9f8fe
+.App {
+    max-width: 960px;
+    margin: 0 auto;
+}
+ a{
+   font-size: 36px;
+   color: black;
+   margin-left: 10px;
+}
+.coded{
+     font-size: 50px;
+     margin-right: 10px;
+     color: blue;
 }
 .App-logo {
     max-width: 200px;
     display: block;
     margin: 0 auto;
+    border-radius: 12px;
 }
 .App-header{
    margin: 30px 0;
@@ -16,5 +28,7 @@ a{
 .app-footer {
     text-align: center;
     margin: 30px 0;
-    font-size: 15px;
+    font-size: 25px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
