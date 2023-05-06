@@ -14,7 +14,7 @@ export default function Dictionary(props) {
     setResults(response.data[0]);
   }
 
-  function handlePexelsResponse(response) {
+  function handleResponse(response) {
     setPhotos(response.data);
    
   }
@@ -25,7 +25,7 @@ export default function Dictionary(props) {
 
     let sheCodesApiKey = "7b8f40fc3t572a5a95094307o7b10f4a";
     let sheCodesApiUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${sheCodesApiKey}`;
-    axios.get(sheCodesApiUrl).then(handlePexelsResponse);
+    axios.get(sheCodesApiUrl).then(handleResponse);
   }
 
   function handleSubmit(event) {
